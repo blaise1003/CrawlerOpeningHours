@@ -20,15 +20,15 @@ Requirements
 Installation
 ============
 
-1. Create a virtualenv with python2.7::
-    $ mkdir Scrapy
-    $ cd Scrapy
-    $ python2.7 ../virtualenv.py --distribute --no-site-packages .
-2. Activate virtualenv::
-    $ source bin/activate
-3. Install scrapy:
-    $ easy_install scrapy
-4. Clone GIT repository from GitHub::
+1. Create a virtualenv with python2.7:  
+    $ mkdir Scrapy  
+    $ cd Scrapy  
+    $ python2.7 ../virtualenv.py --distribute --no-site-packages .  
+2. Activate virtualenv:  
+    $ source bin/activate  
+3. Install scrapy:  
+    $ easy_install scrapy  
+4. Clone GIT repository from GitHub:  
     $ git clone git@github.com:blaise1003/CrawlerOpeningHours.git CrawlerOpeningTimes
 
 
@@ -36,7 +36,7 @@ Installation
 Start application
 =================
 
-To start CrawlerOpeningTimes application run command from application directory::
+To start CrawlerOpeningTimes application run command from application directory:  
     $ scrapy crawl shops -o shops.json -t json
 
 Previous command starts crawl and write an oputput file in json format (path-to-venv-directory/CrawlerOpeningTimes/shops.json) with shops informations.
