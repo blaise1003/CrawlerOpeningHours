@@ -10,7 +10,7 @@ class OrarinegoziSpider(CrawlSpider):
     """
     custom spider for grab shops information from www.doveconviene.it
     """
-    name = 'orari_negozi'
+    name = 'shops'
     allowed_domains = ['doveconviene.it', 'google.it']
     start_urls = [
         'https://www.google.it/search?q=site:www.doveconviene.it/negozi/']
