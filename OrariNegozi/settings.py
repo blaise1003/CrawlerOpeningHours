@@ -11,5 +11,8 @@ BOT_NAME = 'OrariNegozi'
 SPIDER_MODULES = ['OrariNegozi.spiders']
 NEWSPIDER_MODULE = 'OrariNegozi.spiders'
 
+# Set delay between requests to go over google block
+DOWNLOAD_DELAY = 5
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'OrariNegozi (+http://www.yourdomain.com)'
